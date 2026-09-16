@@ -1,3 +1,6 @@
+//Problem Statement
+// A weather station records the temperature every hour. For  
+// each hour, print the lowest temperature recorded from the first hour up to the current hour.
 import java.util.*;
 public class RunningMin{
     public static void main(String [] args){
