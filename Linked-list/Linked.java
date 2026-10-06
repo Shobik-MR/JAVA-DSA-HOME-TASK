@@ -27,11 +27,15 @@ public class Linked{
         }
     }
     Node temp = head;
+    int count =0;
     while(temp!=null){
         System.out.print(temp.data+"->");
+        count++;
         temp=temp.next;
     }
+    
     System.out.println("null");
+    System.out.println("length = "+ count);
     sc.close();
    }
 }
